@@ -37,7 +37,7 @@ public class TorpedoStore {
   }
 
   public boolean isEmpty(){
-    return this.torpedos <= 0;
+    return (this.torpedos <= 0);
   }
 
   public int getNumberOfTorpedos() {
